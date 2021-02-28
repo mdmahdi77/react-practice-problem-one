@@ -1,0 +1,13 @@
+.header nav{
+    background-color: darkcyan;
+    line-height: 70px;
+}
+.header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+}
+.header nav a:hover{
+    background-color: gray;
+}

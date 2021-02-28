@@ -1,0 +1,7 @@
+.user-container{
+    display: flex;
+}
+.person-container{
+    width: 65%;
+    border-right: 1px solid darkgray;
+}
