@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './User.css';
 import userData from '../../../data/MOCK_DATA.json'
 import Person from '../../Person/Person';
@@ -26,7 +26,7 @@ const User = () => {
         <div className="user-container">
             <div className="person-container">
                     {
-                        users.map(user => <Person handleAddPerson={handleAddPerson} user={user}></Person>)
+                        users.map(user => <Person key={user.id} handleAddPerson={handleAddPerson} user={user}></Person>)
                     }
             </div>
             <div className="cart-container">

@@ -1,6 +1,7 @@
 .person{
     display: flex;
     margin: 50px;
+    border-bottom: 1px solid darkgray;
 }
 .person img{
     width: 300px;
@@ -10,4 +11,26 @@
 }
 .person-info{
     margin-left: 40px;
+}
+.personName{
+    color: green;
+    font-size: 30px;
+}
+.personSalary{
+    color: crimson;
+}
+.personContact{
+    color: darkcyan;
+}
+span{
+    color: gray;
+}
+.btn{
+    border: 1px solid darkgray;
+    width: 150px;
+    height: 30px;
+    border-radius:10px;
+    margin-bottom: 10px;
+    color: crimson;
+    cursor: pointer;
 }
